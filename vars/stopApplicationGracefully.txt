@@ -1,0 +1,1 @@
+Stop the application gracefully, or not :-)
