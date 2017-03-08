@@ -1,0 +1,11 @@
+= Toulouse JAM - Librairie partagée Jenkins Pipeline
+
+@see https://github.com/jenkinsci/workflow-cps-global-lib-plugin/blob/master/README.md
+
+Available methods :
+
+`copyFileTo(username, hostname, localpath, remotepath)` : copie a file to a remote location using SCP
+
+`sshExec(username, hostname, command)` : execute a command on a remote host via SSH
+
+`stopApplicationGracefully(username, hostname)` : stop the remote java application (not very gracefully :-))
